@@ -5,7 +5,7 @@ class Mailing:
         self.weight = weight
         self.tracking_id = tracking_id
 
-def __repr__(self) -> str:
+    def __repr__(self) -> str:
         return f'Отправление: вес {self.weight}, трекинг-код {self.tracking_id}\nОткуда: {self.from_address}\nКуда: {self.to_address}'
 
    # def __str__(self):

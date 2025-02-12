@@ -1,21 +1,17 @@
 class Smart:
-	number = '+70000000000'
+	number = 'number'
 	model_phone = 'model'
 	phone_brand = 'brand'
-	abonent = "FIO"
+	abonent = "abonent"
 
-	def __init__(self, brand, model, number, abonent):
-		self.number = number
-		self.model_phone = model
-		self.phone_brand = brand 
-		self.abonent = abonent
-    
-def smartphone_1 (self):
-        print("smartphone_1  of ParentClass")
- 
-def smartphone_2 (self):
-        print("smartphone_2 of ParentClass")
+	class Smart:
+		def __init__(self, brand, model, number, abonent):
+			self.number = number
+			self.model = model
+			self.brand = brand
+			self.abonent = abonent
+
  
 def calls(self, kuki):
-     print("Звонил", self.number, "время", kuki )
+	print("Звонил", self.number, "время", kuki )
 

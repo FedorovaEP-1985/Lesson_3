@@ -15,3 +15,11 @@ smartphone_3 = Smart (["Motorola"], ["A4"], ["+79111111111"], ["Dima"])
 #print(smart_1.class_attribute)
 
 smartphone_1.calls ("12:00")
+
+
+print(smartphone_1)
+print(smartphone_2)
+print(smartphone_3)
+print(smartphone_1)
+print(smartphone_2)
+

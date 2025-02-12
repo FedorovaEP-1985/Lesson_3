@@ -9,6 +9,13 @@ class Smart:
 		self.model_phone = model
 		self.phone_brand = brand 
 		self.abonent = abonent
+    
+def smartphone_1 (self):
+        print("smartphone_1  of ParentClass")
+ 
+def smartphone_2 (self):
+        print("smartphone_2 of ParentClass")
+ 
+def calls(self, kuki):
+     print("Звонил", self.number, "время", kuki )
 
-	def calls(self, kuki):
-		print("Звонил", self.number, "время", kuki )

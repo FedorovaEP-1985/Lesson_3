@@ -1,32 +1,22 @@
 class User:
-    age = 39;
-    firstname = ("Lena")
-    lastname = ("Fedorova")
-
-    #def __init__(self, name):
-        #print("я создался")
-        #self.username = name
-
-    #def sayname(self):
-        #print("меня зовут ", self.username)
-
-    #def sayage(self):
-        #print(self.age)
-
-    #def setage(self, newAge):
-        #self.age = newAge
-
+    first_name = {"Lena"}
+    last_name = {"Fedorova"}
+    my_name = "Вас зовут: {} {}".format(last_name, first_name)
+    print (my_name)
 
     def __init__(self, name):
         print("я тут")
         self.username = name
 
-        #self.lastname = lastname
-
-    def firstname(self):
+    def first_name(self):
             print("меня зовут ", self.username)
 
-    def SONAME(self):
-            print("меня зовут ", self, firstname, lastname)
-            self.firstname = username
-            self.lastname = ()
+    def last_name(self):
+            print("моя фамилия ", "Fedorova")
+
+    def SONAME(self, first_name, input):
+            print("меня зовут ", self.username, input)
+            self.last_name = input      
+
+    def abonent (self):
+        print ( "абонент по Имени", self.abonent)

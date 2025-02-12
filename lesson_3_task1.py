@@ -3,11 +3,9 @@ from card import Card
 
 
 Helen = User("Lena")
-#Helen.sayname()
-#Helen.sayage()
-#Helen.setage(40)
-#Helen.sayage()
-Helen.firstname()
+Helen.first_name()
+Helen.last_name ()
+
 
 
 

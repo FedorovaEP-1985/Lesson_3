@@ -2,7 +2,7 @@ class Smart:
 	number = '+70000000000'
 	model_phone = 'model'
 	phone_brand = 'brand'
-	abonent= "FIO"
+	abonent = "FIO"
 
 	def __init__(self, brand, model, number, abonent):
 		self.number = number

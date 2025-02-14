@@ -1,6 +1,5 @@
 from Smartphone import Smart
 
-
 catalog = []
 catalog.append(Smart("Nokia", "2210", "+79152268093", "Danya"))
 catalog.append(Smart("Fly", "1111", "+79222222222", "Oly"))
@@ -18,8 +17,11 @@ catalog.append(Smart("IPhone", "13 ProMax", "+7-999-698-85-96", "Lena"))
 
 #phone.calls ("12:00")
 
+#for smart in catalog:
+    #print(f"(smart.abonent), (smart.brand), (smart.model): (smart.number)")
+
 for smart in catalog:
-    print(f"(smart.abonent), (smart.brand), (smart.model): (smart.number)")
+        print(f"{smart.owner}, {smart.brand}, {smart.model}: {smart.number}")
 
 for item in catalog:
     print(item)

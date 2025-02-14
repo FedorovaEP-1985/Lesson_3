@@ -11,8 +11,8 @@ class Smart:
 			self.brand = brand
 			self.owner = owner
 
-        def __repr__str(self):
-           return f'Smart({self.phone_brand}, {self.model_phone}, {self.number}, {self.owner})'
+def __repr__str(self):
+    return f'Smart({self.phone_brand}, {self.model_phone}, {self.number}, {self.owner})'
  
 #def calls(self, kuki):
 	#print("Звонил", self.number, "время", kuki )

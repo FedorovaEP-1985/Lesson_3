@@ -5,18 +5,14 @@ class User:
     print (my_name)
 
     def __init__(self, name):
-        print("я тут")
-        self.username = name
+        self.name = name
 
     def first_name(self):
-            print("меня зовут ", self.username)
+        print ("меня зовут", self.name)
 
     def last_name(self):
-            print("моя фамилия ", "Fedorova")
+        print ("моя фамилия","Fedorova")
 
-    def SONAME(self, first_name, input):
-            print("меня зовут ", self.username, input)
-            self.last_name = input      
 
-    def abonent (self):
-        print ( "абонент по Имени", self.abonent)
+    #def abonent (self):
+        #print ( "абонент по Имени", self.abonent)

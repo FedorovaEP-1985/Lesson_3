@@ -2,16 +2,18 @@ class Smart:
 	number = 'number'
 	model_phone = 'model'
 	phone_brand = 'brand'
-	abonent = "abonent"
+	owner = "owner"
 
 	class Smart:
-		def __init__(self, brand, model, number, abonent):
+		def __init__(self, brand, model, number, owner):
 			self.number = number
 			self.model = model
 			self.brand = brand
-			self.abonent = abonent
+			self.owner = owner
 
+        def __repr__str(self):
+           return f'Smart({self.phone_brand}, {self.model_phone}, {self.number}, {self.owner})'
  
-def calls(self, kuki):
-	print("Звонил", self.number, "время", kuki )
+#def calls(self, kuki):
+	#print("Звонил", self.number, "время", kuki )
 

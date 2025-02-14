@@ -17,14 +17,10 @@ catalog.append(Smart("IPhone", "13 ProMax", "+7-999-698-85-96", "Lena"))
 
 #phone.calls ("12:00")
 
-#for smart in catalog:
-    #print(f"(smart.abonent), (smart.brand), (smart.model): (smart.number)")
-
 for smart in catalog:
         print(f"{smart.owner}, {smart.brand}, {smart.model}: {smart.number}")
 
-for item in catalog:
-    print(item)
+
 
 
 

@@ -1,12 +1,11 @@
-class Smart:
+class Smartphone:
     def __init__(self, brand, model, number):
-        self.number = number
-        self.model = model
         self.brand = brand
-        #self.owner = owner
+        self.model = model
+        self.number = number
 
     def __repr__(self):
-        return f'Smart({self.brand}, {self.model}, {self.number})'
+        return f'Smartphone({self.brand}, {self.model}, {self.number})'
 
 #def calls(self, kuki):
 	#print("Звонил", self.number, "время", kuki )

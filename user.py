@@ -1,5 +1,5 @@
 class User:
-    first_name = {"Lena"}
+    first_name = {"Alena"}
     last_name = {"Fedorova"}
     my_name = "Вас зовут: {} {}".format(last_name, first_name)
     print (my_name)

@@ -2,7 +2,7 @@ from user import User
 from card import Card
 
 
-Helen = User("Lena")
+Helen = User("Elena")
 Helen.first_name()
 Helen.last_name ()
 

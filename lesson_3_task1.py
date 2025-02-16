@@ -1,10 +1,10 @@
 from user import User
-from card import Card
 
 
-Helen = User("Elena")
-Helen.first_name()
-Helen.last_name ()
+
+Helen = User("Elena", "Fedorova")
+Helen.print_first_name()
+Helen.print_last_name ()
 
 
 

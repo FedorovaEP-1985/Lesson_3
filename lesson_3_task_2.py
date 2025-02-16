@@ -1,5 +1,4 @@
 from smartphone import Smartphone
-from callLogger import CallLogger
 
 #catalog = []
 #catalog.append(Smartphone("Nokia", "2210", "+79152268093"))

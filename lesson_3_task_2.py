@@ -1,4 +1,5 @@
 from smartphone import Smartphone
+from callLogger import CallLogger
 
 #catalog = []
 #catalog.append(Smartphone("Nokia", "2210", "+79152268093"))
@@ -13,11 +14,7 @@ catalog = [ Smartphone("Nokia", "2210", "+79152268093"),
             Smartphone("Samsung", "Galaxy11", "+7-999-123-45-67"),
             Smartphone("IPhone", "13 ProMax", "+7-999-698-85-96")]
 
-#phone.calls ("12:00")
 
-#for Smartphone in catalog:
-   #print(f" {Smartphone.brand}, {Smartphone.model}: {Smartphone.number}")
 for phone in catalog:
    print(f" {phone.brand}, {phone.model}: {phone.number}")
-
 

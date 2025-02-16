@@ -7,6 +7,3 @@ class Smartphone:
     def __repr__(self):
         return f'Smartphone({self.brand}, {self.model}, {self.number})'
 
-#def calls(self, kuki):
-	#print("Звонил", self.number, "время", kuki )
-

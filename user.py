@@ -1,9 +1,4 @@
 class User:
-    #first_name = {"Elena"}
-    #last_name = {"Fedorova"}
-    #my_name = "Вас зовут: {} {}".format(last_name, first_name)
-    #print (my_name)
-
 
     def __init__(self, first_name, last_name):
         self.first_name = first_name

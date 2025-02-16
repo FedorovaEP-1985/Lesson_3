@@ -9,11 +9,3 @@ Helen.print_full_name()
 
 
 
-
-
-
-
-#card = Card("2202 2000 4565 1264", "09/34", "Helen F")
-#card.pay(3000)
-
-
